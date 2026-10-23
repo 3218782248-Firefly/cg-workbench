@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "procedural-demo",
+      "kind": "self_authored_scene_script",
+      "source": "examples/blender/render.py",
+      "author": "CG Workbench contributors",
+      "license_record": "LICENSE",
+      "version_or_commit": "record the checked-out repository commit",
+      "use_state": "included_in_demo",
+      "modifications": "Native geometry, materials, camera, light and animation constructed by this script",
+      "included_in_distribution": true
+    }
+  ]
+}

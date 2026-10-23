@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "procedural-ceramic",
+  "inputs": ["render.py"],
+  "command": ["blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "{project}/render.py", "--", "--frame", "{frame}", "--output", "{output}", "--temp", "{temp}"],
+  "output": "../../.work/blender",
+  "frames": [1, 12],
+  "image": [192, 192],
+  "fps": 12,
+  "timeout_seconds": 180,
+  "poll_seconds": 1,
+  "storage": {"reserve_bytes": 2147483648, "job_budget_bytes": 67108864}
+}

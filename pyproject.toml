@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cg-workbench"
+version = "0.1.0"
+description = "Small, evidence-driven tools for resumable CG production"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = ["Pillow>=10.4,<14"]
+
+[project.scripts]
+cg-workbench = "cgworkbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

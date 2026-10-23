@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "synthetic-orbit",
+  "inputs": ["render.py"],
+  "command": ["{python}", "{project}/render.py", "--frame", "{frame}", "--output", "{output}"],
+  "output": "../../.work/synthetic",
+  "frames": [1, 12],
+  "image": [192, 192],
+  "fps": 12,
+  "timeout_seconds": 30,
+  "poll_seconds": 0.1,
+  "storage": {"reserve_bytes": 1073741824, "job_budget_bytes": 16777216},
+  "content_check": {"kind": "channel_presence", "roi": [0, 0, 192, 192], "channel": 2, "min_value": 180, "min_pixels": 1000}
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "generation": null,
+  "artifact_sha256": null,
+  "technical_report": null,
+  "content_review": {"status": "not_reviewed", "frames_or_intervals": [], "method": null, "findings": []},
+  "visual_review": {"status": "not_reviewed", "native_size_checked": false, "realtime_watch": false, "findings": []},
+  "adoption": {"status": "not_recorded", "by": null, "scope": null},
+  "limitations": []
+}
